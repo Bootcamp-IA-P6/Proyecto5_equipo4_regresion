@@ -1,0 +1,17 @@
+[project]
+name = "proyecto5-equipo4-regresion"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "ipywidgets>=8.1.8",
+    "joblib>=1.5.3",
+    "jupyterlab>=4.5.4",
+    "matplotlib>=3.10.8",
+    "numpy>=2.4.2",
+    "optuna>=4.7.0",
+    "pandas>=3.0.0",
+    "scikit-learn>=1.8.0",
+    "seaborn>=0.13.2",
+]
