@@ -1,7 +1,9 @@
 ## 🩺 Simulador Integrado de Esperanza de Vida: Un Enfoque Multimodelo
+
 ¿Es posible predecir cuántos años viviremos basándonos en factores socioeconómicos y de salud? Este proyecto nace de esa pregunta, utilizando los datos globales de la Organización Mundial de la Salud (OMS) para construir una herramienta analítica capaz de simular diversos escenarios demográficos.
 
 ### 📖 La Historia del Proyecto
+
 Nuestro equipo se enfrentó al desafío de analizar un dataset complejo con variables que van desde el PIB de un país hasta sus tasas de vacunación de Polio. Para abordar este reto, dividimos la investigación en 4 bloques estratégicos:
 
 Colaboración Modular: Cada integrante del equipo asumió la responsabilidad de responder a 2 preguntas de investigación específicas del dataset.
@@ -13,6 +15,7 @@ Modelado y Pickling: Cada bloque de análisis culminó en un modelo de regresió
 La Gran Integración: Finalmente, unimos todas las piezas en un cerebro central: version_completed.ipynb, donde reside nuestra lógica de predicción y el simulador interactivo.
 
 ### 🛠️ Arquitectura del Repositorio
+
 Para mantener la escalabilidad y facilitar la futura dockerización, hemos seguido una estructura de carpetas limpia y profesional:
 
 ```
@@ -34,6 +37,7 @@ PROYECTO_ML/
 ```
 
 ### 🚀 El Producto Final: El Simulador
+
 Nuestra calculadora no es un modelo estático; es una herramienta de simulación orientada al cliente.
 
 Características principales:
@@ -42,6 +46,7 @@ Características principales:
 - Predicción Dual: Capacidad de contrastar resultados entre diferentes algoritmos con un solo clic.
 
 ### ⚙️ Configuración y Uso
+
 Gestión de Entorno con UV
 Este proyecto utiliza UV para una gestión de paquetes ultrarrápida. Para replicar el entorno:
 
@@ -57,9 +62,6 @@ Activa el entorno virtual:
 source .venv/bin/activate  # En Linux/Mac
 .venv\Scripts\activate     # En Windows
 ```
-
-Dockerización (Próximamente 🐳)
-El proyecto está preparado para ser encapsulado en un contenedor Docker, lo que permitirá ejecutar el simulador en cualquier servidor sin conflictos de dependencias.
 
 ### 🧪 Tecnologías Utilizadas
 
