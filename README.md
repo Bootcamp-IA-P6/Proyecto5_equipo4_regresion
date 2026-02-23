@@ -6,13 +6,13 @@
 
 Nuestro equipo se enfrentó al desafío de analizar un dataset complejo con variables que van desde el PIB de un país hasta sus tasas de vacunación de Polio. Para abordar este reto, dividimos la investigación en 4 bloques estratégicos:
 
-Colaboración Modular: Cada integrante del equipo asumió la responsabilidad de responder a 2 preguntas de investigación específicas del dataset.
+- Colaboración Modular: Cada integrante del equipo asumió la responsabilidad de responder a 2 preguntas de investigación específicas del dataset.
 
-Análisis Individual (EDA): Se realizaron limpiezas y análisis exploratorios personalizados en notebooks independientes (partially), asegurando que cada variable fuera comprendida a fondo.
+- Análisis Individual (EDA): Se realizaron limpiezas y análisis exploratorios personalizados en notebooks independientes (partially), asegurando que cada variable fuera comprendida a fondo.
 
-Modelado y Pickling: Cada bloque de análisis culminó en un modelo de regresión entrenado, los cuales fueron exportados mediante joblib en formato .pkl para su reutilización.
+- Modelado y Pickling: Cada bloque de análisis culminó en un modelo de regresión entrenado, los cuales fueron exportados mediante joblib en formato .pkl para su reutilización.
 
-La Gran Integración: Finalmente, unimos todas las piezas en un cerebro central: version_completed.ipynb, donde reside nuestra lógica de predicción y el simulador interactivo.
+- La Gran Integración: Finalmente, unimos todas las piezas en un cerebro central: version_completed.ipynb, donde reside nuestra lógica de predicción y el simulador interactivo.
 
 ### 🛠️ Arquitectura del Repositorio
 
@@ -65,12 +65,16 @@ source .venv/bin/activate  # En Linux/Mac
 
 ### 🧪 Tecnologías Utilizadas
 
-Lenguaje: Python
-Gestión de Dependencias: UV
-Análisis de Datos: Pandas, Numpy
-Visualización: Matplotlib, Seaborn
-Machine Learning: Scikit-learn, Joblib (para persistencia de modelos)
-Notebooks: Jupyter
+- Lenguaje: Python
+- Gestión de Dependencias: UV
+- Análisis de Datos: Pandas, Numpy
+- Visualización: Matplotlib, Seaborn
+- Machine Learning: Scikit-learn, Joblib (para persistencia de modelos)
+- Notebooks: Jupyter
 
-
-Colaboradores: Joaquin Lazáro, Iris Amorim, Isabel Rodriguez, Mar Izquierdo.
+---
+### Colaboradores: 
+- Joaquin Lazaro
+- Iris Amorim
+- Isabel Rodriguez
+- Mar Izquierdo
